@@ -25,7 +25,7 @@ public class GenericSteps {
     @Container
     private static final GenericContainer postGresContainer
             = new PostgreSQLContainer("postgres:9.6.12")
-            .withDatabaseName("test")
+            .withDatabaseName("postgres")
             .withUsername("postgres")
             .withPassword("Pass2020!");
 
